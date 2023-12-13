@@ -13,6 +13,7 @@
 @endsection
 @section('navbar')
     <header>
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
     <a href="#" class="logo">
         
         <img  class="imgtamaño" src="{{ asset('img/logocolor.png')}}" alt="JLDM ! Proyects">
